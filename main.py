@@ -161,7 +161,7 @@ blankspace(71)
 #\____-        
 reg_line(Fore.MAGENTA + " _-----_      " + Fore.BLUE + "reggietorres" + Fore.WHITE + "@" + Fore.BLUE + "gentoo", 72, delay=0)
 reg_line(Fore.MAGENTA + "(       \     os" + Fore.WHITE + "     Gentoo Linux", 73, delay=0)
-reg_line(Fore.MAGENTA + "\    0   \    kernel" + Fore.WHITE + "6.7.4-zen1-1-zen", 74, delay=0)
+reg_line(Fore.MAGENTA + "\    0   \    kernel" + Fore.WHITE + " 6.7.4-zen1-1-zen", 74, delay=0)
 reg_line(" \        )   " + Fore.MAGENTA + "uptime" + Fore.WHITE + " 10s", 75, delay=0)
 reg_line(" /      _/    " + Fore.MAGENTA + "pkgs" + Fore.WHITE + "   1288", 76, delay=0)
 reg_line("(     _-      " + Fore.MAGENTA + "memory" + Fore.WHITE + " 7834M / 31242M", 77, delay=0)
