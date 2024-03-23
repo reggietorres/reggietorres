@@ -76,7 +76,7 @@ t.clone_frame(30)
 
 t.clear_frame()
 reg_line("Freeing unused kernel memory: 980K (ffffffff81bcf000 - ffffffff81cc4000)", 1, delay=0)
-reg_line("INIT: version 3.00 booting", 2, delay=0)
+reg_line("INIT: version 3.08 booting", 2, delay=0)
 blankspace(3)
 reg_line("     " + Fore.LIGHTGREEN_EX + "OpenRC 0.53" + Fore.WHITE + " Is starting up " + Fore.BLUE + "Gentoo Linux (x86_64)" + Fore.WHITE, 4, delay=0)
 blankspace(5)
