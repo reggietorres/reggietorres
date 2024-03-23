@@ -18,7 +18,7 @@ def reg_line(text, row, delay=2, color="white", contin=False, save=True):
 
 def shell(row, delay=0, color="white", contin=False, save=True):
     t.set_txt_color(color)
-    t.gen_text(text="[reggietorres@gentoo ~]$ ", row_num=row, contin=contin)
+    t.gen_text(text="[reggie@gentoo ~]$ ", row_num=row, contin=contin)
     t.clone_frame(delay)
     if save:
         t.save_frame(base_file_name=f"frame_{row}")
@@ -68,7 +68,7 @@ def openrc_line_ok(text, row, max_width=72, delay=2, color="white", contin=False
 
 
 
-reg_line("Loading Linux 6.7.4-zen1-1-zen ...", 1, delay=0)
+reg_line("Loading Linux 6.8.1-zen1-1-zen ...", 1, delay=0)
 reg_line("Loading initial ramdisk ...", 2, delay=5)
 t.clone_frame(30)
 
@@ -139,10 +139,10 @@ openrc_line_ok("Starting local ...", 61, delay=0)
 blankspace(62)
 blankspace(63)
 blankspace(64)
-reg_line("Gentoo Linux 6.7.4-zen1-1-zen (tty1)", 65, delay=0)
+reg_line("Gentoo Linux 6.8.1-zen1-1-zen (tty1)", 65, delay=0)
 blankspace(66)
 reg_line("gentoo login: ", 66, delay=0)
-typetext("reggietorres", 66)
+typetext("reggie", 66)
 reg_line("password: ", 67, delay=0)
 typetext("*************************", 67)
 blankspace(68)
@@ -152,16 +152,16 @@ typetext("pfetch", 70, contin=True)
 blankspace(71)
 
 
-# _-----_      reggietorres@gentoo
+# _-----_      reggie@gentoo
 #(       \     os     Gentoo Linux
-#\    0   \    kernel 6.7.4-zen1-1-zen
+#\    0   \    kernel 6.8.1-zen1-1-zen
 # \        )   uptime 10s
 # /      _/    pkgs   1288
 #(     _-      memory 7834M / 31242M
 #\____-        
-reg_line(Fore.MAGENTA + " _-----_      " + Fore.BLUE + "reggietorres" + Fore.WHITE + "@" + Fore.BLUE + "gentoo", 72, delay=0)
+reg_line(Fore.MAGENTA + " _-----_      " + Fore.BLUE + "reggie" + Fore.WHITE + "@" + Fore.BLUE + "gentoo", 72, delay=0)
 reg_line(Fore.MAGENTA + "(       \     os" + Fore.WHITE + "     Gentoo Linux", 73, delay=0)
-reg_line(Fore.MAGENTA + "\    0   \    kernel" + Fore.WHITE + " 6.7.4-zen1-1-zen", 74, delay=0)
+reg_line(Fore.MAGENTA + "\    0   \    kernel" + Fore.WHITE + " 6.8.1-zen1-1-zen", 74, delay=0)
 reg_line(" \        )   " + Fore.MAGENTA + "uptime" + Fore.WHITE + " 10s", 75, delay=0)
 reg_line(" /      _/    " + Fore.MAGENTA + "pkgs" + Fore.WHITE + "   1288", 76, delay=0)
 reg_line("(     _-      " + Fore.MAGENTA + "memory" + Fore.WHITE + " 7834M / 31242M", 77, delay=0)
@@ -199,25 +199,26 @@ t.gen_text(text="\x1b[31mC++", row_num=91)
 
 blankspace(86)
 shell(87)
-typetext("cat /proc/frameworks | head -n 2", 87)
+typetext("cat /proc/frameworks | head -n 3", 87)
 blankspace(88)
 
 t.gen_text(text="\x1b[32mpyFlask", row_num=89)
 t.gen_text(text="\x1b[36mTailwindCSS", row_num=90)
+t.gen_text(text="\x1b[32mpyQT5", row_num=91)
 
-blankspace(91)
-shell(92)
-typetext('echo "thanks for stopping by!" | cowsay', 92)
-blankspace(93)
+blankspace(92)
+shell(93)
+typetext('echo "thanks for stopping by!" | cowsay', 94)
+blankspace(95)
 
-reg_line(" _________________________ ",94, delay=0)
-reg_line("< thanks for stopping by! >",95, delay=0)
-reg_line(" ------------------------- ",96, delay=0)
-reg_line("        \   ^__^",97, delay=0)
-reg_line("         \  (oo)\_______",98, delay=0)
-reg_line("            (__)\       )\/",99, delay=0)
-reg_line("                ||----w |",100, delay=0)
-reg_line("                ||     ||",101, delay=0)
+reg_line(" _________________________ ",96, delay=0)
+reg_line("< thanks for stopping by! >",97, delay=0)
+reg_line(" ------------------------- ",98, delay=0)
+reg_line("        \   ^__^",99, delay=0)
+reg_line("         \  (oo)\_______",100, delay=0)
+reg_line("            (__)\       )\/",101, delay=0)
+reg_line("                ||----w |",102, delay=0)
+reg_line("                ||     ||",103, delay=0)
 
 
 
